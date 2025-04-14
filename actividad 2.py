@@ -33,7 +33,7 @@ G = construir_grafo()
 inicio, destino = "Bogotá", "Medellín"
 mejor_ruta, distancia = encontrar_mejor_ruta(G, inicio, destino)
 
-# Resultados
+# Resultado
 if mejor_ruta:
     print(f"La mejor ruta de {inicio} a {destino} es: {' -> '.join(mejor_ruta)} con una distancia de {distancia} km.")
 else:
